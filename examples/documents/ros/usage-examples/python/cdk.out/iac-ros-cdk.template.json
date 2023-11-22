@@ -1,0 +1,10 @@
+{
+  "Metadata": {
+    "ALIYUN::ROS::Interface": {
+      "TemplateTags": [
+        "Create by ROS CDK"
+      ]
+    }
+  },
+  "ROSTemplateFormatVersion": "2015-09-01"
+}

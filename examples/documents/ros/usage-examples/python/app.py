@@ -2,11 +2,11 @@
 
 import ros_cdk_core as core
 
-from demo.demo_stack import DemoStack
+from iac_ros_cdk.iac_ros_cdk_stack import IacRosCdkStack
 
 
 app = core.App()
 
-DemoStack(app, "demo")
+IacRosCdkStack(app, "iac-ros-cdk")
 
 app.synth()

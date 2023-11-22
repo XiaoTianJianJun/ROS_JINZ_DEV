@@ -1,0 +1,23 @@
+{
+  "version": "tree-0.1",
+  "tree": {
+    "id": "App",
+    "path": "",
+    "children": {
+      "Tree": {
+        "id": "Tree",
+        "path": "Tree"
+      },
+      "iac-ros-cdk": {
+        "id": "iac-ros-cdk",
+        "path": "iac-ros-cdk",
+        "children": {
+          "ROSTemplateFormatVersion": {
+            "id": "ROSTemplateFormatVersion",
+            "path": "iac-ros-cdk/ROSTemplateFormatVersion"
+          }
+        }
+      }
+    }
+  }
+}

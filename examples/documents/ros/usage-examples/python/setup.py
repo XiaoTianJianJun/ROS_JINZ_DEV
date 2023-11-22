@@ -6,7 +6,7 @@ with open("README.md") as fp:
 
 
 setuptools.setup(
-    name="demo",
+    name="iac_ros_cdk",
     version="0.0.1",
 
     description="An empty ROS CDK Python app",
@@ -15,11 +15,11 @@ setuptools.setup(
 
     author="author",
 
-    package_dir={"": "demo"},
-    packages=setuptools.find_packages(where="demo") + setuptools.find_packages(where="test"),
+    package_dir={"": "iac_ros_cdk"},
+    packages=setuptools.find_packages(where="iac_ros_cdk") + setuptools.find_packages(where="test"),
 
     install_requires=[
-        "ros-cdk-core==1.0.22",
+        "ros-cdk-core==1.0.20",
     ],
 
     python_requires=">=3.6",
